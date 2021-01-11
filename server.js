@@ -5,7 +5,7 @@ const fs = require("fs");
 
 //Opens up express and sets a port, modified for Heroku
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 
 //Sets up express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -52,6 +52,7 @@ app.post("/api/notes", function (req, res){
 //Deletes note based on ID number given when posted
 app.delete("/api/notes/:id", function (req,res){
     var currentNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    console.log(currentNotes);
     var deleteNoteID = req.params.id;
     console.log(deleteNoteID);
     currentNotes = currentNotes.filter(function (data){
