@@ -25,7 +25,7 @@ The program can then be run using the following command line in the bash termina
 node server.js
 ```
 ### Hosted
-The app is hosted using Heroku here at this link: (COMING SOON)
+The app is hosted using Heroku here at this link: [Heroku Link](https://mysterious-eyrie-18588.herokuapp.com/)
 ### Screenshots 
 
 ![notetaker1](./Images/notetaker1.JPG)
