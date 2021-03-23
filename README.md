@@ -1,10 +1,7 @@
-# Homework-Note-Taker
-![GitHub](https://img.shields.io/github/license/ogmedina/Homework-Note-Taker)
+# Note-Taker
+![GitHub](https://img.shields.io/github/license/ogmedina/Note-Taker)
 
-## Full Stack Boot Camp Homework 11 - Note Taker
-
-### Description
-This is the eleventh assignment for the UTSA Full-Stack Bootcamp. It is an application that can be used to write, save, and delete notes. This application uses express backend and retrieves, saves, and deletes notes data from a JSON file. This app is hosted using the service Heroku. 
+It is an application that can be used to write, save, and delete notes. This application uses express backend and retrieves, saves, and deletes notes data from a JSON file. This app is hosted using the service Heroku. 
 
 ### Table of Contents
 
@@ -25,7 +22,7 @@ The program can then be run using the following command line in the bash termina
 node server.js
 ```
 ### Hosted
-The app is hosted using Heroku here at this link: [Heroku Link](https://mysterious-eyrie-18588.herokuapp.com/)
+The app is hosted using Heroku here at this link: [Note Taker](https://mysterious-eyrie-18588.herokuapp.com/)
 ### Screenshots 
 
 ![notetaker1](./Images/notetaker1.JPG)
